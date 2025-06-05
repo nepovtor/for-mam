@@ -7,6 +7,7 @@
 ```bash
 npm install
 npm run dev
+npm run dev:server # запустить API сервер
 ```
 
 ## Постоянная работа сайта
@@ -29,4 +30,10 @@ npm run dev
 
 ```bash
 npx pm2 stop for-mam
+```
+
+Для запуска API сервера после сборки используйте:
+
+```bash
+npm run start:server
 ```

@@ -8,12 +8,15 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "start": "serve -s dist -l 3000",
-    "start:pm2": "pm2 start npm --name for-mam -- start"
+    "start:pm2": "pm2 start npm --name for-mam -- start",
+    "dev:server": "nodemon server/index.cjs",
+    "start:server": "node server/index.cjs"
   },
   "dependencies": {
     "vue": "^3.5.13",
     "serve": "^14.2.4",
-    "pm2": "^6.0.8"
+    "pm2": "^6.0.8",
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
@@ -23,6 +26,7 @@
     "tailwindcss": "^3.4.17",
     "typescript": "~5.8.3",
     "vite": "^6.3.5",
-    "vue-tsc": "^2.2.8"
+    "vue-tsc": "^2.2.8",
+    "nodemon": "^3.0.3"
   }
 }

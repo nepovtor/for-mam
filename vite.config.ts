@@ -6,6 +6,12 @@ export default defineConfig({
   server: {
     host: true,         // ⬅️ позволяет принимать подключения извне
     port: 5163,         // можешь поменять при необходимости
-    strictPort: true
+    strictPort: true,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3001',
+        changeOrigin: true
+      }
+    }
   }
 })
