@@ -7,9 +7,9 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        primary: '#F8BBD0',
-        secondary: '#FFECB3',
-        accent: '#BBDEFB',
+        primary: '#FF968A',
+        secondary: '#FFD8A9',
+        accent: '#FFECCE',
       },
     },
   },
