@@ -1,12 +1,35 @@
 <template>
-  <section class="py-16 bg-secondary/30" id="signup">
+  <section class="py-16 bg-gradient-to-r from-pink-50 via-purple-50 to-yellow-50" id="signup">
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-semibold text-center text-primary mb-8">Записаться на курс</h2>
       <form class="max-w-xl mx-auto grid gap-4" @submit.prevent="submit">
-        <input v-model="name" type="text" placeholder="Имя" class="border p-3 rounded" required />
-        <input v-model="email" type="email" placeholder="Email" class="border p-3 rounded" required />
-        <input v-model="phone" type="tel" placeholder="Телефон" class="border p-3 rounded" required />
-        <button type="submit" class="bg-primary hover:bg-pink-300 text-white font-semibold py-3 px-8 rounded-lg transition-colors">Отправить заявку</button>
+        <input
+          v-model="name"
+          type="text"
+          placeholder="Имя"
+          class="border p-3 rounded focus:outline-none focus:ring-2 focus:ring-primary/50"
+          required
+        />
+        <input
+          v-model="email"
+          type="email"
+          placeholder="Email"
+          class="border p-3 rounded focus:outline-none focus:ring-2 focus:ring-primary/50"
+          required
+        />
+        <input
+          v-model="phone"
+          type="tel"
+          placeholder="Телефон"
+          class="border p-3 rounded focus:outline-none focus:ring-2 focus:ring-primary/50"
+          required
+        />
+        <button
+          type="submit"
+          class="bg-primary hover:bg-pink-300 text-white font-semibold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-105"
+        >
+          Отправить заявку
+        </button>
       </form>
     </div>
   </section>

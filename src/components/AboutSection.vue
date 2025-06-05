@@ -6,15 +6,15 @@
         Наши курсы созданы опытными врачами и психологами, чтобы вы чувствовали уверенность и спокойствие. Мы предлагаем онлайн и офлайн форматы и поддерживаем вас 24/7.
       </p>
       <div class="grid md:grid-cols-3 gap-6">
-        <div class="p-4 rounded-lg shadow-sm bg-secondary/20">
+        <div class="p-4 rounded-lg shadow-sm bg-secondary/20 transition-transform hover:-translate-y-1 hover:shadow-lg">
           <h3 class="font-semibold mb-2">Опытные специалисты</h3>
           <p class="text-sm text-gray-600">Врачи и психологи с многолетней практикой сопровождают каждое занятие.</p>
         </div>
-        <div class="p-4 rounded-lg shadow-sm bg-secondary/20">
+        <div class="p-4 rounded-lg shadow-sm bg-secondary/20 transition-transform hover:-translate-y-1 hover:shadow-lg">
           <h3 class="font-semibold mb-2">Поддержка 24/7</h3>
           <p class="text-sm text-gray-600">Мы всегда на связи, чтобы ответить на ваши вопросы в любое время.</p>
         </div>
-        <div class="p-4 rounded-lg shadow-sm bg-secondary/20">
+        <div class="p-4 rounded-lg shadow-sm bg-secondary/20 transition-transform hover:-translate-y-1 hover:shadow-lg">
           <h3 class="font-semibold mb-2">Удобный формат</h3>
           <p class="text-sm text-gray-600">Занимайтесь дома или приходите в наш центр — как вам удобнее.</p>
         </div>
