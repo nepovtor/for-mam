@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 bg-gradient-to-r from-pink-50 via-purple-50 to-yellow-50" id="signup">
+  <section class="py-16 bg-gradient-to-r from-secondary via-accent to-white" id="signup">
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-semibold text-center text-primary mb-8">Записаться на курс</h2>
       <form class="max-w-xl mx-auto grid gap-4" @submit.prevent="submit">
@@ -26,7 +26,7 @@
         />
         <button
           type="submit"
-          class="bg-primary hover:bg-pink-300 text-white font-semibold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-105"
+          class="bg-primary hover:bg-primary/80 text-white font-semibold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-105"
         >
           Отправить заявку
         </button>
