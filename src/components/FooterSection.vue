@@ -3,9 +3,9 @@
     <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
       <p class="mb-4 md:mb-0">© 2025 pro.mama</p>
       <div class="flex space-x-4">
-        <a href="mailto:info@promama.ru" class="hover:underline">info@promama.ru</a>
+        <a href="mailto:promama.by@gmail.com" class="hover:underline">promama.by@gmail.com</a>
         <span>|</span>
-        <a href="tel:+71234567890" class="hover:underline">+7 123 456 78 90</a>
+        <a href="tel:+375333943148" class="hover:underline">+375 (33) 394-31-48</a>
       </div>
       <div class="flex space-x-4 mt-4 md:mt-0">
         <a href="#" aria-label="vk">
