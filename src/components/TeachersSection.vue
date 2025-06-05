@@ -42,19 +42,22 @@ const teachers: Teacher[] = [
   {
     name: 'Анна',
     role: 'Акушерка',
-    img: 'https://static.tildacdn.biz/tild6337-3666-4937-b433-363830396165/1.jpg',
+    // поместите файл anna.jpg в папку src/assets/teachers
+    img: new URL('../assets/teachers/anna.jpg', import.meta.url).href,
     desc: 'Практикующая акушерка с опытом более 10 лет. Ведёт занятия по подготовке к родам.'
   },
   {
     name: 'Роза',
     role: 'Доула',
-    img: 'https://static.tildacdn.biz/tild3031-3339-4037-a534-343630306264/2.jpg',
+    // поместите файл roza.jpg в папку src/assets/teachers
+    img: new URL('../assets/teachers/roza.jpg', import.meta.url).href,
     desc: 'Помогает женщинам чувствовать себя уверенно и поддерживает их на каждом этапе беременности.'
   },
   {
     name: 'Марина',
     role: 'Педиатр',
-    img: 'https://static.tildacdn.biz/tild3239-6165-4732-a262-356431313339/3.jpg',
+    // поместите файл marina.jpg в папку src/assets/teachers
+    img: new URL('../assets/teachers/marina.jpg', import.meta.url).href,
     desc: 'Рассказывает о первом годе жизни малыша и отвечает на вопросы о здоровье ребёнка.'
   }
 ]
