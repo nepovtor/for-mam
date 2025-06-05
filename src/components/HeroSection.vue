@@ -9,10 +9,10 @@
           class="text-4xl md:text-6xl font-bold font-poppins text-primary mb-4 transition-opacity duration-700"
           data-aos="fade-down"
         >
-          pro.mama — курсы для будущих мам
+          «Роды в любви» — курс для будущих мам
         </h1>
         <p class="text-lg md:text-2xl mb-6 text-gray-700">
-          Забота, знание и поддержка на каждом этапе вашей беременности
+          Поддержка и знания для спокойного ожидания малыша
         </p>
         <button
           class="bg-primary hover:bg-primary/80 text-white font-semibold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-105"
