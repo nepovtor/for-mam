@@ -13,20 +13,23 @@
     "start:server": "node server/index.cjs"
   },
   "dependencies": {
-    "vue": "^3.5.13",
-    "serve": "^14.2.4",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
     "pm2": "^6.0.8",
-    "express": "^4.19.2"
+    "serve": "^14.2.4",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
     "@vue/tsconfig": "^0.7.0",
     "autoprefixer": "^10.4.21",
+    "nodemon": "^3.0.3",
     "postcss": "^8.5.4",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.8.3",
     "vite": "^6.3.5",
-    "vue-tsc": "^2.2.8",
-    "nodemon": "^3.0.3"
+    "vue-tsc": "^2.2.8"
   }
 }
