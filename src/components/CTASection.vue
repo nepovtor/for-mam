@@ -31,6 +31,8 @@
           Отправить заявку
         </button>
       </form>
+        <p v-if="success" class="text-green-600 text-center">Спасибо! Мы свяжемся с вами.</p>
+        <p v-if="error" class="text-red-600 text-center">{{ error }}</p>
     </div>
   </section>
 </template>
@@ -41,12 +43,33 @@ import { ref } from 'vue'
 const name = ref('')
 const email = ref('')
 const phone = ref('')
+const success = ref(false)
+const error = ref('')
 
-function submit() {
-  console.log({ name: name.value, email: email.value, phone: phone.value })
-  name.value = ''
-  email.value = ''
-  phone.value = ''
+async function submit() {
+  success.value = false
+  error.value = ''
+  try {
+    const res = await fetch('/api/signup', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name: name.value,
+        email: email.value,
+        phone: phone.value
+      })
+    })
+    if (!res.ok) {
+      const msg = (await res.json()).error || 'Ошибка отправки'
+      throw new Error(msg)
+    }
+    name.value = ''
+    email.value = ''
+    phone.value = ''
+    success.value = true
+  } catch (e: any) {
+    error.value = e.message || 'Неизвестная ошибка'
+  }
 }
 </script>
 
