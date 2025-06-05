@@ -6,10 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve -s dist -l 3000",
+    "start:pm2": "pm2 start npm --name for-mam -- start"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "serve": "^14.2.4",
+    "pm2": "^6.0.8"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
