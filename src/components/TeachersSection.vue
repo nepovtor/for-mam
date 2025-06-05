@@ -42,7 +42,7 @@ const teachers: Teacher[] = [
   {
     name: 'Анна',
     role: 'Акушерка',
-    img: 'https://static.tildacdn.biz/tild6337-3666-4937-b433-363830396165/1.jpg',
+    img: '/Users/nepovtor/Documents/PROGRAMMING/for-mam/src/image/photo_2025-02-03_13-.jpg\ \(1\).png',
     desc: 'Практикующая акушерка с опытом более 10 лет. Ведёт занятия по подготовке к родам.'
   },
   {
