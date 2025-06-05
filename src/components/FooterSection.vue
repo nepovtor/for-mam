@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-8 bg-primary text-white" id="footer">
+  <footer class="py-8 bg-gradient-to-r from-primary to-accent text-white" id="footer">
     <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
       <p class="mb-4 md:mb-0">© 2025 pro.mama</p>
       <div class="flex space-x-4">
