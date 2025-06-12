@@ -13,6 +13,7 @@
     "start:server": "node server/index.cjs"
   },
   "dependencies": {
+    "better-sqlite3": "^8.7.0",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
