@@ -42,7 +42,7 @@ const teachers: Teacher[] = [
   {
     name: 'Анна',
     role: 'Акушерка',
-    img: '/Users/nepovtor/Documents/PROGRAMMING/for-mam/src/image/photo_2025-02-03_13-.jpg\ \(1\).png',
+    img: '/Users/nepovtor/Documents/PROGRAMMING/for-mam/src/image/photo_2025-02-03_13.png',
     desc: 'Практикующая акушерка с опытом более 10 лет. Ведёт занятия по подготовке к родам.'
   },
   {
