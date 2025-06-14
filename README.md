@@ -2,6 +2,8 @@
 
 This single page site is built with **Vue&nbsp;3**, **Vite** and **Tailwind&nbsp;CSS**. It provides details about the course, reviews and a sign‑up form for expecting mothers.
 
+Requires **Node.js 18** or newer.
+
 ## Getting started
 
 ```bash
@@ -45,6 +47,8 @@ npm run start:server
 ## По-русски
 
 Одностраничный сайт, созданный на Vue 3, Vite и Tailwind CSS. Содержит информацию о программе, отзывы и форму записи на курс.
+
+Требуется **Node.js 18** или новее.
 
 ### Запуск проекта
 
