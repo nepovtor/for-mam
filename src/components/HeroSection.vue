@@ -15,7 +15,7 @@
           Поддержка и знания для спокойного ожидания малыша
         </p>
         <button
-          class="bg-primary hover:bg-primary/80 text-white font-semibold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-105"
+          class="bg-primary hover:bg-primary/80 text-white font-semibold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-105 animate-bounce"
           @click="$emit('scrollTo', 'signup')"
         >
           Записаться на курс
