@@ -52,7 +52,14 @@ app.post('/api/signup', (req, res) => {
   res.json({ success: true });
 });
 
-const port = process.env.PORT || 3001;
+// Serve built frontend if available
+const distPath = path.join(__dirname, '..', 'dist');
+app.use(express.static(distPath));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(distPath, 'index.html'));
+});
+
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });

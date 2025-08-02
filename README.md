@@ -8,8 +8,7 @@ Requires **Node.js 18** or newer.
 
 ```bash
 npm install
-npm run dev
-npm run dev:server # start the API server
+npm run dev:all # start frontend and API together
 ```
 
 The server stores submissions in `server/signups.db` (SQLite) and can send a Telegram notification for each new registration.
@@ -36,10 +35,10 @@ The site will be available on port **3000** and pm2 will restart it automaticall
 npx pm2 stop for-mam
 ```
 
-To run the API server after building:
+To serve the built site and API together:
 
 ```bash
-npm run start:server
+npm start
 ```
 
 ---
@@ -54,8 +53,7 @@ npm run start:server
 
 ```bash
 npm install
-npm run dev
-npm run dev:server # запустить API сервер
+npm run dev:all # запустить фронтенд и сервер вместе
 ```
 
 Сервер сохраняет заявки в `server/signups.db` (SQLite) и может отправлять уведомления в Telegram.
@@ -82,8 +80,8 @@ npm run dev:server # запустить API сервер
 npx pm2 stop for-mam
 ```
 
-Для запуска API сервера после сборки:
+Для запуска собранного сайта и API вместе:
 
 ```bash
-npm run start:server
+npm start
 ```
