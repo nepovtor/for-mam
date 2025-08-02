@@ -8,12 +8,12 @@
   },
   "scripts": {
     "dev": "vite",
+    "dev:server": "nodemon server/index.cjs",
+    "dev:all": "node dev.js",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
-    "start": "serve -s dist -l 3000",
-    "start:pm2": "pm2 start npm --name for-mam -- start",
-    "dev:server": "nodemon server/index.cjs",
-    "start:server": "node server/index.cjs"
+    "start": "node server/index.cjs",
+    "start:pm2": "pm2 start npm --name for-mam -- start"
   },
   "dependencies": {
     "better-sqlite3": "^8.7.0",

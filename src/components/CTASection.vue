@@ -2,7 +2,10 @@
   <section class="py-16 bg-gradient-to-r from-secondary via-accent to-white" id="signup">
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-semibold text-center text-primary mb-8">Записаться на курс</h2>
-      <form class="max-w-xl mx-auto grid gap-4" @submit.prevent="submit">
+      <form
+        class="max-w-xl mx-auto grid gap-4 bg-white/80 backdrop-blur p-8 rounded-xl shadow-lg"
+        @submit.prevent="submit"
+      >
         <input
           v-model="name"
           type="text"
@@ -26,13 +29,13 @@
         />
         <button
           type="submit"
-          class="bg-primary hover:bg-primary/80 text-white font-semibold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-105 animate-pulse"
+          class="bg-primary hover:bg-primary/80 text-white font-semibold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-105"
         >
           Отправить заявку
         </button>
       </form>
-        <p v-if="success" class="text-green-600 text-center">Спасибо! Мы свяжемся с вами.</p>
-        <p v-if="error" class="text-red-600 text-center">{{ error }}</p>
+        <p v-if="success" class="text-green-600 text-center mt-4">Спасибо! Мы свяжемся с вами.</p>
+        <p v-if="error" class="text-red-600 text-center mt-4">{{ error }}</p>
     </div>
   </section>
 </template>
